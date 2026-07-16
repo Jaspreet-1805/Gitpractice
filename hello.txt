@@ -1,1 +1,2 @@
-hello git
+My goal is ₹12 lakh/month.
+Learning Git Day 2.
