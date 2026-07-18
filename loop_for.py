@@ -1,3 +1,3 @@
-for i in range(5):
-    print("Hello Jaspreet")
+for i in range(5,11):
+    print(i)
     
