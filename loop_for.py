@@ -1,3 +1,3 @@
-for i in range(5,11):
+for i in range(10,101,10):
     print(i)
     
