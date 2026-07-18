@@ -4,14 +4,23 @@ def input_3num():
     c=int(input("Enter third number: ",))
     return a,b,c
 def compare():
-    x=input_3num({a})
-    y=input_3num({b})
-    z=input_3num({c})
+    x,y,z=input_3num()
     if x>y and x>z:
         return x
+    elif x==y:
+         if x>z:
+            return x
+         else:
+            return z            
     elif y>x and y>z:
         return y
+    elif y==z:
+        if y>x:
+            return y
+        else:
+            return x
     else:
         return z
+
 largest=compare()
 print("The largest number is:",largest)
